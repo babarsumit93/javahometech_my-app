@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: agawande/my-app:latest
+        #image: sumitbabar/hello-world:v1
+        image: sumitbabar/test:latest
         ports:
         - containerPort: 80
         resources:

@@ -17,7 +17,7 @@ spec:
       containers:
       - name: my-app
         #image: sumitbabar/hello-world:v1
-        image: sumitbabar/test:latest
+        image: sumitbabar/javahometech:latest
         ports:
         - containerPort: 80
         resources:
